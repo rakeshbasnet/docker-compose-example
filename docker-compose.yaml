@@ -28,7 +28,6 @@ services:
     depends_on:
       db:
         condition: service_started
-        restart: true
   redis:
     image: redis:latest
     container_name: redis
