@@ -1,4 +1,4 @@
-# Docker Network Example
+# Docker Compose Example
 
 ## Project Setup Instructions
 
@@ -33,3 +33,20 @@
 
 6. **Access the Application**:
    Open a browser and go to: `http://127.0.0.1:5000`
+
+
+## Docker Compose and Docker containers
+
+### Prerequisites
+- Docker installed
+- Docker Compose installed
+
+### Step-by-Step Guide
+
+1. **Build Application Docker Image from Dockerfile**:
+    ```bash
+    docker build -t image-name:tag-name .    //replace your flask-app-image-name and tag name
+
+2. **Run Docker Compose**:
+    ```bash
+    docker compose up
